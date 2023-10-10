@@ -55,11 +55,11 @@ Select sync in the diagram, click Toolbar -> Run to run
 
 In the run window, click Parse to preview the run plan, and click Run to actually run
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/run-form.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/run-form.png?raw=true)
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/parse-result.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/parse-result.png?raw=true)
 
 5, Batch Run
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png?raw=true)
