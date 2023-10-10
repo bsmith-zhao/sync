@@ -30,11 +30,11 @@ AddFolder: add normal disk folder as reposit
 AddAead: add aead(Authenticated encryption with associated data) encryption folder as reposit, 
 if the aead conf not exist, the app will automaticly create, you can set some parameters as well
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-aead.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-aead.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-args.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-args.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-pwd.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-pwd.png" width=40% height=40%>
 
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/space-reps.png)
 
@@ -62,4 +62,4 @@ In the run window, click Parse to preview the run plan, and click Run to actuall
 5, Batch Run
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png?raw=true" width=80% height=80%>
