@@ -16,9 +16,9 @@ Space mains a collection of configurations include reposits, views, syncs.
 
 Click Toolbar -> AddSpace to add
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-space.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-space.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/space-test.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/space-test.png" width=40% height=40%>
 
 2, Add Reposit
 Reposit mains a collection of files
