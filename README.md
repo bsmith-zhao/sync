@@ -3,11 +3,11 @@ sync files, create aead encryption file system, read files by virtual drive
 
 Screenshots:
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/main-ndisk.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/main-ndisk.png)
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/main-prj.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/main-prj.png)
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/main-test.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/main-test.png)
 
 Getting start:
 
@@ -17,9 +17,9 @@ Space mains a collection of configurations include reposits, views, syncs.
 
 Click Toolbar -> AddSpace to add
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-space.png" width=40% height=40%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/add-space.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/space-test.png" width=40% height=40%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/space-test.png" width=40% height=40%>
 
 2, Add Reposit
 
@@ -32,13 +32,13 @@ AddFolder: add normal disk folder as reposit
 AddAead: add aead(Authenticated encryption with associated data) encryption folder as reposit, 
 if the aead conf not exist, the app will automaticly create, you can set some parameters as well
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-aead.png" width=40% height=40%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/add-aead.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-args.png" width=40% height=40%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/aead-args.png" width=40% height=40%>
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/aead-pwd.png" width=40% height=40%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/aead-pwd.png" width=40% height=40%>
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/space-reps.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/space-reps.png)
 
 3, Create Sync between Reposits
 
@@ -49,9 +49,9 @@ MasterSync: source keeps no change, and target will be sync by the source
 
 RoundSync: source and target will be sync by each other
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/add-master-sync.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/add-master-sync.png" width=60% height=60%>
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/pick-master-sync.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/pick-master-sync.png)
 
 4, Run Sync
 
@@ -59,12 +59,12 @@ Select sync in the diagram, click Toolbar -> Run to run
 
 In the run window, click Parse to preview the run plan, and click Run to actually run
 
-![](https://github.com/bsmith-zhao/sync/blob/main/doc/run-form.png)
+![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/run-form.png)
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/parse-result.png" width=60% height=60%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/parse-result.png" width=60% height=60%>
 
 5, Batch Run
 
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
-<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png?raw=true" width=80% height=80%>
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/batch-run.png" width=80% height=80%>
