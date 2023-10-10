@@ -63,3 +63,5 @@ In the run window, click Parse to preview the run plan, and click Run to actuall
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png?raw=true)
+
+<img src="https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png" width=50% height=50%>
