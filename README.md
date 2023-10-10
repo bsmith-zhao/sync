@@ -12,6 +12,7 @@ Screenshots:
 Getting start:
 
 1, Add Space
+
 Space mains a collection of configurations include reposits, views, syncs.
 
 Click Toolbar -> AddSpace to add
@@ -21,6 +22,7 @@ Click Toolbar -> AddSpace to add
 <img src="https://github.com/bsmith-zhao/sync/blob/main/doc/space-test.png" width=40% height=40%>
 
 2, Add Reposit
+
 Reposit mains a collection of files
 
 Click Toolbar -> AddFolder or AddAead to add
@@ -39,6 +41,7 @@ if the aead conf not exist, the app will automaticly create, you can set some pa
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/space-reps.png)
 
 3, Create Sync between Reposits
+
 Choose 2 Reposits, first reposit as source and the second as target, 
 then click Toolbar -> MasterSync or RoundSync to create
 
@@ -51,6 +54,7 @@ RoundSync: source and target will be sync by each other
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/pick-master-sync.png)
 
 4, Run Sync
+
 Select sync in the diagram, click Toolbar -> Run to run
 
 In the run window, click Parse to preview the run plan, and click Run to actually run
@@ -60,6 +64,7 @@ In the run window, click Parse to preview the run plan, and click Run to actuall
 <img src="https://github.com/bsmith-zhao/sync/blob/main/doc/parse-result.png" width=60% height=60%>
 
 5, Batch Run
+
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
 <img src="https://github.com/bsmith-zhao/sync/blob/main/doc/batch-run.png?raw=true" width=80% height=80%>
