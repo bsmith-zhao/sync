@@ -1,7 +1,4 @@
-SyncFavor is a file synchronize tool, main functions: 
-1, synchronize files
-2, manage aead encryption files
-3, mount to virtual drive
+SyncFavor is a file synchronize tool, functions: synchronize files, manage aead encryption files, mount to virtual drive
 
 [Screenshots]
 
@@ -79,7 +76,9 @@ Click Language menu to change language.
 Language files store in [lang] dir, files are:
 
 current: the current choosed language
+
 locales.txt: all available OS defined language codes and names list
+
 *.lang: language translate file, must ends with ".lang"
 
 Language translate file can be named by OS defined or any other customized,
