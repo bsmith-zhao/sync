@@ -1,7 +1,9 @@
-SyncFavor is a file synchronize tool, the main functions include: 
-sync files, create aead encryption file system, read files by virtual drive
+SyncFavor is a file synchronize tool, main functions: 
+1, synchronize files
+2, manage aead encryption files
+3, mount to virtual drive
 
-Screenshots:
+[Screenshots]
 
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/main-ndisk.png)
 
@@ -9,7 +11,7 @@ Screenshots:
 
 ![](https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/main-test.png)
 
-Getting start:
+[Getting start]
 
 1, Add Space
 
@@ -68,3 +70,26 @@ In the run window, click Parse to preview the run plan, and click Run to actuall
 If want to run multiple syncs, click Toolbar -> BatchRun to open batch runner
 
 <img src="https://github.com/bsmith-zhao/sync/blob/main/doc/imgs/batch-run.png" width=80% height=80%>
+
+
+[Language]
+
+Click Language menu to change language.
+
+Language files store in [lang] dir, files are:
+
+current: the current choosed language
+locales.txt: all available OS defined language codes and names list
+*.lang: language translate file, must ends with ".lang"
+
+Language translate file can be named by OS defined or any other customized,
+but only OS defined name can be used as default if user not choose by hand
+
+
+[Batch Runner Mode]
+
+Execute sync.exe with [-run] parameter can start in Batch Runner mode, command:
+
+sync.exe -run [space path]
+
+[space path] is optional, if set, only the choose space will be loaded
